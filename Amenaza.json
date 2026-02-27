@@ -1,0 +1,523 @@
+{
+  "name": "Amenaza interna",
+  "type": "folder",
+  "children": [
+
+  {
+
+"name": "Nuevo actor en la empresa",
+"type": "folder",
+"children": [
+    {
+
+    "name": "Datos que tenemos",
+    "type": "folder",
+    "children": [
+        {
+    "name": "Nombre",
+    "type": "folder",
+    "children": [
+
+        {
+            "name":"Verificar su autenticidad",
+            "type":"folder",
+            "children": null
+        },
+         {
+            "name":"Comprobar su tiempo en otras empresas",
+            "type":"folder",
+            "children":null
+        },
+         {
+            "name":"Buscar incidencias",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Datos que buscamos",
+            "type":"folder",
+            "children":[
+                {
+            "name":"Brechas de datos",
+            "type":"folder",
+            "children":null
+        },{
+            "name":"Incidencias",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Malas practicas",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Intentos de actos maliciosos",
+            "type":"folder",
+            "children":null
+        }
+                
+            ]
+        }
+    ]
+    
+    },
+    {
+    "name": "Telefono",
+    "type": "folder",
+    "children": [
+
+        {
+            "name":"Buscar veracidad",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Uso sospechoso",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Buscar en base de datos filtradas",
+            "type":"folder",
+            "children":null
+        }, 
+        
+        {
+            "name":"Posibles resultados",
+            "type":"folder",
+            "children":[
+                {
+            "name":"Se filtro el numero de telefono",
+            "type":"folder",
+            "children":null
+        },{
+            "name":"Telefono desechable",
+            "type":"folder",
+            "children":null
+        }
+            ]
+        }
+    ]
+    },
+    {
+    "name": "Correo",
+    "type": "folder",
+    "children": [
+        {
+            "name":"Buscar correo filtrado",
+            "type":"folder",
+            "children":null
+        },{
+            "name":"Buscar si ha sido victima de phising",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Si se encuentra en la competencia",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Resultados buscados",
+            "type":"folder",
+            "children":[
+                {
+            "name":"Correo no seguro",
+            "type":"folder",
+            "children":null
+        },{
+            "name":"Correo ya usado en uno de los competidores",
+            "type":"folder",
+            "children":null
+        }
+            ]
+        }
+    ]
+    }, 
+    {
+    "name": "Dirección",
+    "type": "folder",
+    "children": [
+
+        {
+            "name":"Dirección real",
+            "type":"folder",
+            "children":null
+        },
+
+        {
+            "name":"Ubicación no sospechosa",
+            "type":"folder",
+            "children":null
+        },
+        {
+            "name":"Resultado buscados",
+            "type":"folder",
+            "children":[
+
+                {
+            "name":"No concordancia con los datos entregados y la dirección",
+            "type":"folder",
+            "children":null
+        },{
+            "name":"Dirección no confiable",
+            "type":"folder",
+            "children":null
+        }
+            ]
+        }
+    ]
+
+    }
+
+    
+    
+
+
+    ]
+},
+{
+        "name":"acciones en caso de sospechas",
+        "type":"folder",
+        "children":[
+        {
+            "name":"Compartir inteligencia a compañias del sector",
+            "type":"folder",
+            "children":null
+        },
+         {
+            "name":"No contratación",
+            "type":"folder",
+            "children":null
+        }
+    ]    }
+    
+
+]
+
+  },
+  {
+    "name":"Ex-trabajador",
+    "type":"folder",
+    "children":[
+         {
+            "name":"Eliminar privilegios",
+            "type":"folder",
+            "children":null
+        },
+         {
+            "name":"Confiscar el material dado por la empresa",
+            "type":"folder",
+            "children":null
+        },
+         {
+            "name":"eliminar y rebocar todos los accesos de él en la compañia",
+            "type":"folder",
+            "children":null
+        },
+         {
+            "name":"Crear nueva o nuevas contraseñas según el grado de importancia del empleado",
+            "type":"folder",
+            "children":null
+        }
+
+    ]
+  },
+
+  {
+    "name":"Actividad sospechosa",
+    "type":"folder",
+    "children":[
+        {
+            "name":"conexiones a dominios",
+            "type":"folder",
+            "children":[
+                {
+            "name": "Verificar reputación del dominio",
+            "type": "folder",
+            "children": null
+        },{
+            "name": "Comprobar si pertenece a infraestructura maliciosa",
+            "type": "folder",
+            "children": null
+         },{
+            "name": "Correlacionar con horario laboral",
+            "type": "folder",
+            "children": null
+        },
+        {
+            "name": "Acciones que tomar",
+            "type": "folder",
+            "children": [
+                
+            {
+            "name": "Meter en una blacklist el dominio",
+            "type": "folder",
+            "children": null
+            }, 
+            {
+            "name": "Comprobar los ordenadores que se han intentado conectar",
+            "type": "folder",
+            "children": null
+            }
+        ]
+            } 
+                
+            ]
+        },
+        {
+            "name":"Ips",
+            "type":"folder",
+            "children":[  
+            {
+            "name": "Geolocalización",
+            "type": "folder",
+            "children": null
+            },  
+            {
+            "name": "Reputación de la IP",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Escalada si coincide con descargas anómalas",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Acciones que tomar",
+            "type": "folder",
+            "children": [
+                
+            {
+            "name": "Meter en una blacklist la IP",
+            "type": "folder",
+            "children": null
+            }, 
+            {
+            "name": "Comprobar los ordenadores que se han intentado conectar",
+            "type": "folder",
+            "children": null
+            }
+        ]
+            } 
+            
+    
+    ]
+        },
+           {
+            "name":"Comportamiento extraño de un trabajador",
+            "type":"folder",
+            "children":[
+                {
+            "name": "Accesos fuera de horario habitual",
+            "type": "folder",
+            "children": null
+            }, 
+             {
+            "name": "Acceso a información fuera de su rol",
+            "type": "folder",
+            "children": null
+            }, 
+            {
+            "name": "Intentos repetidos de autenticación",
+            "type": "folder",
+            "children": null
+            }, 
+             {
+            "name": "Uso excesivo de USB",
+            "type": "folder",
+            "children": null
+            }, 
+              {
+            "name": "Descargas masivas",
+            "type": "folder",
+            "children": null
+            }, 
+               {
+            "name": "Elevación de privilegios",
+            "type": "folder",
+            "children": null
+            }, 
+               {
+            "name": "Riesgos",
+            "type": "folder",
+            "children": [
+
+            {
+            "name": "Evento aislado -> Riesgo bajo",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Evento repetido -> Riesgo medio",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Evento multiple -> Riesgo alto",
+            "type": "folder",
+            "children": null
+            } 
+
+            ]
+            }
+
+
+
+            ]
+        },   {
+            "name":"Software no reglamentario",
+            "type":"folder",
+            "children":[
+
+            {
+            "name": "Verificar conexión externa del software",
+            "type": "folder",
+            "children": null
+            }, 
+            {
+            "name": "Verificar persistencia del sistema",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Relación con actividades sospechosas previas",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Acciones",
+            "type": "folder",
+            "children": [
+            {
+            "name": "Formatear el equipo",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Analisis de posibles daños generados",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Comprobar el origen de este programa",
+            "type": "folder",
+            "children": null
+            }
+            ]
+            }
+
+            ]
+        }
+    ]
+  },
+     {
+            "name":"Busqueda proactiva",
+            "type":"folder",
+            "children":[
+                   {
+            "name":"Foros en la darkweb",
+            "type":"folder",
+            "children":[
+            {
+            "name": "Menciones del dominio corporativo",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Buscar filtraciones recientes",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Empleados mencionados",
+            "type": "folder",
+            "children": null
+            }
+
+            ]
+        },   {
+            "name":"Grupos de telegram",
+            "type":"folder",
+            "children":[
+            {
+            "name": "Buesqueda por nombre de empresa",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Busqueda por producto",
+            "type": "folder",
+            "children": null
+            }
+            ]
+        },
+           {
+            "name":"La competencia parece saber de nuestra posición",
+            "type":"folder",
+            "children":[
+                {
+            "name": "Busqueda de correlaciones entre actividades de las empresas",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Analisis temporal de publicaciones",
+            "type": "folder",
+            "children": null
+            }
+            ]
+        }, {
+            "name": "Acciones",
+            "type": "folder",
+            "children": [
+            {
+            "name": "Intentar hallar la sección de la filtración y aislarla",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Comprobar la importancia y el daño de la filtración",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "Gestionar los daños y reforzar la seguridad como politicas de la empresa",
+            "type": "folder",
+            "children": null
+            }
+            ]
+            } 
+            
+            
+            ]
+        },{
+
+            "name": "Hacer siempre",
+            "type": "folder",
+            "children": [
+            {
+            "name": "Preservación de logs",
+            "type": "folder",
+            "children": null
+            },
+            {
+            "name": "No alterar sistemas antes del análisis forense",
+            "type": "folder",
+            "children": null
+            }, 
+            {
+            "name": "Documento cronologico.",
+            "type": "folder",
+            "children": null
+            }
+                
+            ]
+
+        }
+
+]
+
+}
