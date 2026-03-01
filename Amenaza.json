@@ -2,522 +2,1061 @@
   "name": "Amenaza interna",
   "type": "folder",
   "children": [
-
-  {
-
-"name": "Nuevo actor en la empresa",
-"type": "folder",
-"children": [
     {
-
-    "name": "Datos que tenemos",
-    "type": "folder",
-    "children": [
+      "name": "Nuevo actor en la empresa",
+      "type": "folder",
+      "children": [
         {
-    "name": "Nombre",
-    "type": "folder",
-    "children": [
-
-        {
-            "name":"Verificar su autenticidad",
-            "type":"folder",
-            "children": null
-        },
-         {
-            "name":"Comprobar su tiempo en otras empresas",
-            "type":"folder",
-            "children":null
-        },
-         {
-            "name":"Buscar incidencias",
-            "type":"folder",
-            "children":null
-        },
-        {
-            "name":"Datos que buscamos",
-            "type":"folder",
-            "children":[
+          "name": "Datos que tenemos",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Nombre",
+              "type": "folder",
+              "children": [
                 {
-            "name":"Brechas de datos",
-            "type":"folder",
-            "children":null
-        },{
-            "name":"Incidencias",
-            "type":"folder",
-            "children":null
+                  "name": "Verificar su autenticidad",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Sherlock",
+                      "type": "url",
+                      "url": "https://github.com/sherlock-project/sherlock"
+                    },
+                    {
+                      "name": "WhatsMyName",
+                      "type": "url",
+                      "url": "https://whatsmyname.app/"
+                    },
+                    {
+                      "name": "Namechk",
+                      "type": "url",
+                      "url": "https://namechk.com/"
+                    },
+                    {
+                      "name": "Instant Username Search",
+                      "type": "url",
+                      "url": "https://instantusername.com/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Comprobar su tiempo en otras empresas",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "LinkedIn",
+                      "type": "url",
+                      "url": "https://www.linkedin.com/"
+                    },
+                    {
+                      "name": "RecruitEm",
+                      "type": "url",
+                      "url": "http://recruitin.net/"
+                    },
+                    {
+                      "name": "Glassdoor",
+                      "type": "url",
+                      "url": "https://www.glassdoor.com/Reviews/index.htm"
+                    },
+                    {
+                      "name": "LinkedInt",
+                      "type": "url",
+                      "url": "https://github.com/vysec/LinkedInt"
+                    }
+                  ]
+                },
+                {
+                  "name": "Buscar incidencias",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Have I been pwned?",
+                      "type": "url",
+                      "url": "https://haveibeenpwned.com/"
+                    },
+                    {
+                      "name": "DeHashed",
+                      "type": "url",
+                      "url": "https://dehashed.com/"
+                    },
+                    {
+                      "name": "IntelX",
+                      "type": "url",
+                      "url": "https://intelx.io/"
+                    },
+                    {
+                      "name": "Hudson Rock",
+                      "type": "url",
+                      "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+                    }
+                  ]
+                },
+                {
+                  "name": "Datos que buscamos",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Brechas de datos",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Have I been pwned?",
+                          "type": "url",
+                          "url": "https://haveibeenpwned.com/"
+                        },
+                        {
+                          "name": "Databases.Today",
+                          "type": "url",
+                          "url": "https://databases.today/"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Incidencias",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AlienVault OTX",
+                          "type": "url",
+                          "url": "https://otx.alienvault.com/"
+                        },
+                        {
+                          "name": "Threat Crowd",
+                          "type": "url",
+                          "url": "https://www.threatcrowd.org/"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Malas practicas",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Scam Database",
+                          "type": "url",
+                          "url": "https://www.scamdb.net"
+                        },
+                        {
+                          "name": "Ripoff Report",
+                          "type": "url",
+                          "url": "http://www.ripoffreport.com/"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Intentos de actos maliciosos",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AbuseIPDB",
+                          "type": "url",
+                          "url": "https://www.abuseipdb.com/"
+                        },
+                        {
+                          "name": "Bot Scout",
+                          "type": "url",
+                          "url": "http://botscout.com/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Telefono",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Buscar veracidad",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Twilio Lookup",
+                      "type": "url",
+                      "url": "https://www.twilio.com/lookup"
+                    },
+                    {
+                      "name": "Free Carrier Lookup",
+                      "type": "url",
+                      "url": "http://freecarrierlookup.com/"
+                    },
+                    {
+                      "name": "Phone Validator",
+                      "type": "url",
+                      "url": "http://www.phonevalidator.com/"
+                    },
+                    {
+                      "name": "Numspy",
+                      "type": "url",
+                      "url": "https://bhattsameer.github.io/numspy"
+                    }
+                  ]
+                },
+                {
+                  "name": "Uso sospechoso",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "True Caller",
+                      "type": "url",
+                      "url": "http://www.truecaller.com/"
+                    },
+                    {
+                      "name": "CallerID Test",
+                      "type": "url",
+                      "url": "http://www.calleridtest.com/"
+                    },
+                    {
+                      "name": "SpyDialer",
+                      "type": "url",
+                      "url": "http://www.spydialer.com/default.aspx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Buscar en base de datos filtradas",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Have I been pwned?",
+                      "type": "url",
+                      "url": "https://haveibeenpwned.com/"
+                    },
+                    {
+                      "name": "IntelX",
+                      "type": "url",
+                      "url": "https://intelx.io/"
+                    },
+                    {
+                      "name": "PhoneInfoga",
+                      "type": "url",
+                      "url": "https://github.com/sundowndev/PhoneInfoga"
+                    }
+                  ]
+                },
+                {
+                  "name": "Posibles resultados",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Se filtro el numero de telefono",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Have I been pwned?",
+                          "type": "url",
+                          "url": "https://haveibeenpwned.com/"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Telefono desechable",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Twilio Lookup",
+                          "type": "url",
+                          "url": "https://www.twilio.com/lookup"
+                        },
+                        {
+                          "name": "Free Carrier Lookup",
+                          "type": "url",
+                          "url": "http://freecarrierlookup.com/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Correo",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Buscar correo filtrado",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Have I been pwned?",
+                      "type": "url",
+                      "url": "https://haveibeenpwned.com/"
+                    },
+                    {
+                      "name": "IntelX",
+                      "type": "url",
+                      "url": "https://intelx.io/"
+                    },
+                    {
+                      "name": "DeHashed",
+                      "type": "url",
+                      "url": "https://dehashed.com/"
+                    },
+                    {
+                      "name": "Leaked Source",
+                      "type": "url",
+                      "url": "https://leakedsource.ru/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Buscar si ha sido victima de phising",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "PhishTank",
+                      "type": "url",
+                      "url": "https://www.phishtank.com/"
+                    },
+                    {
+                      "name": "OpenPhish",
+                      "type": "url",
+                      "url": "https://openphish.com/feed.txt"
+                    },
+                    {
+                      "name": "PhishStats",
+                      "type": "url",
+                      "url": "https://phishstats.info/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Si se encuentra en la competencia",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Hunter",
+                      "type": "url",
+                      "url": "https://hunter.io/"
+                    },
+                    {
+                      "name": "VoilaNorbert",
+                      "type": "url",
+                      "url": "https://www.voilanorbert.com/"
+                    },
+                    {
+                      "name": "Email Format",
+                      "type": "url",
+                      "url": "https://www.email-format.com/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Resultados buscados",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Correo no seguro",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Email Reputation",
+                          "type": "url",
+                          "url": "https://emailrep.io/"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Correo ya usado en uno de los competidores",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Hunter",
+                          "type": "url",
+                          "url": "https://hunter.io/"
+                        },
+                        {
+                          "name": "Google Search",
+                          "type": "url",
+                          "url": "https://www.google.com/search?q=%22correo%40dominio.com%22+%2B+competencia"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dirección",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Dirección real",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Google Maps",
+                      "type": "url",
+                      "url": "https://www.google.com/maps/"
+                    },
+                    {
+                      "name": "Zillow",
+                      "type": "url",
+                      "url": "http://www.zillow.com/"
+                    },
+                    {
+                      "name": "Property Records",
+                      "type": "url",
+                      "url": "http://publicrecords.netronline.com/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Ubicación no sospechosa",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "CrimeReports",
+                      "type": "url",
+                      "url": "https://www.crimereports.com/"
+                    },
+                    {
+                      "name": "Neighbor Report",
+                      "type": "url",
+                      "url": "https://neighbor.report/"
+                    }
+                  ]
+                },
+                {
+                  "name": "Resultado buscados",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "No concordancia con los datos entregados y la dirección",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Whitepages",
+                          "type": "url",
+                          "url": "http://www.411.com/"
+                        },
+                        {
+                          "name": "True People Search",
+                          "type": "url",
+                          "url": "https://www.truepeoplesearch.com/"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Dirección no confiable",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Melissa Data - Property Viewer",
+                          "type": "url",
+                          "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-            "name":"Malas practicas",
-            "type":"folder",
-            "children":null
-        },
-        {
-            "name":"Intentos de actos maliciosos",
-            "type":"folder",
-            "children":null
+          "name": "acciones en caso de sospechas",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Compartir inteligencia a compañias del sector",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AlienVault OTX",
+                  "type": "url",
+                  "url": "https://otx.alienvault.com/"
+                },
+                {
+                  "name": "MISP",
+                  "type": "url",
+                  "url": "http://www.misp-project.org/"
+                },
+                {
+                  "name": "Blueliv Threat Exchange",
+                  "type": "url",
+                  "url": "https://community.blueliv.com/#!/discover"
+                }
+              ]
+            },
+            {
+              "name": "No contratación",
+              "type": "folder",
+              "children": []
+            }
+          ]
         }
-                
-            ]
-        }
-    ]
-    
+      ]
     },
     {
-    "name": "Telefono",
-    "type": "folder",
-    "children": [
-
+      "name": "Ex-trabajador",
+      "type": "folder",
+      "children": [
         {
-            "name":"Buscar veracidad",
-            "type":"folder",
-            "children":null
+          "name": "Eliminar privilegios",
+          "type": "folder",
+          "children": []
         },
         {
-            "name":"Uso sospechoso",
-            "type":"folder",
-            "children":null
+          "name": "Confiscar el material dado por la empresa",
+          "type": "folder",
+          "children": []
         },
         {
-            "name":"Buscar en base de datos filtradas",
-            "type":"folder",
-            "children":null
-        }, 
-        
+          "name": "eliminar y rebocar todos los accesos de él en la compañia",
+          "type": "folder",
+          "children": []
+        },
         {
-            "name":"Posibles resultados",
-            "type":"folder",
-            "children":[
-                {
-            "name":"Se filtro el numero de telefono",
-            "type":"folder",
-            "children":null
-        },{
-            "name":"Telefono desechable",
-            "type":"folder",
-            "children":null
+          "name": "Crear nueva o nuevas contraseñas según el grado de importancia del empleado",
+          "type": "folder",
+          "children": []
         }
-            ]
-        }
-    ]
+      ]
     },
     {
-    "name": "Correo",
-    "type": "folder",
-    "children": [
+      "name": "Actividad sospechosa",
+      "type": "folder",
+      "children": [
         {
-            "name":"Buscar correo filtrado",
-            "type":"folder",
-            "children":null
-        },{
-            "name":"Buscar si ha sido victima de phising",
-            "type":"folder",
-            "children":null
-        },
-        {
-            "name":"Si se encuentra en la competencia",
-            "type":"folder",
-            "children":null
-        },
-        {
-            "name":"Resultados buscados",
-            "type":"folder",
-            "children":[
+          "name": "conexiones a dominios",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Verificar reputación del dominio",
+              "type": "folder",
+              "children": [
                 {
-            "name":"Correo no seguro",
-            "type":"folder",
-            "children":null
-        },{
-            "name":"Correo ya usado en uno de los competidores",
-            "type":"folder",
-            "children":null
+                  "name": "URL Void",
+                  "type": "url",
+                  "url": "http://www.urlvoid.com/"
+                },
+                {
+                  "name": "AbuseIPDB",
+                  "type": "url",
+                  "url": "https://www.abuseipdb.com/"
+                },
+                {
+                  "name": "Threat Crowd",
+                  "type": "url",
+                  "url": "https://www.threatcrowd.org/"
+                },
+                {
+                  "name": "IBM X-Force Exchange",
+                  "type": "url",
+                  "url": "https://exchange.xforce.ibmcloud.com/new"
+                },
+                {
+                  "name": "AlienVault OTX",
+                  "type": "url",
+                  "url": "https://otx.alienvault.com/"
+                }
+              ]
+            },
+            {
+              "name": "Comprobar si pertenece a infraestructura maliciosa",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Shodan",
+                  "type": "url",
+                  "url": "https://www.shodan.io/"
+                },
+                {
+                  "name": "Censys",
+                  "type": "url",
+                  "url": "https://censys.io/"
+                },
+                {
+                  "name": "urlscan.io",
+                  "type": "url",
+                  "url": "https://urlscan.io/"
+                },
+                {
+                  "name": "VirusTotal",
+                  "type": "url",
+                  "url": "https://www.virustotal.com/"
+                },
+                {
+                  "name": "Hybrid Analysis",
+                  "type": "url",
+                  "url": "https://www.hybrid-analysis.com/"
+                },
+                {
+                  "name": "ThreatMiner",
+                  "type": "url",
+                  "url": "https://www.threatminer.org/"
+                }
+              ]
+            },
+            {
+              "name": "Correlacionar con horario laboral",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Acciones que tomar",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Meter en una blacklist el dominio",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Blacklist en firewall local",
+                      "type": "folder",
+                      "children": []
+                    },
+                    {
+                      "name": "Reportar a proveedores de blacklists",
+                      "type": "folder",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Comprobar los ordenadores que se han intentado conectar",
+                  "type": "folder",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ips",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Geolocalización",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "MaxMind",
+                  "type": "url",
+                  "url": "https://www.maxmind.com/en/home"
+                },
+                {
+                  "name": "IP2Location",
+                  "type": "url",
+                  "url": "https://www.ip2location.com/demo"
+                },
+                {
+                  "name": "DB-IP",
+                  "type": "url",
+                  "url": "https://db-ip.com/"
+                },
+                {
+                  "name": "IP Location Finder",
+                  "type": "url",
+                  "url": "https://www.iplocation.net/"
+                }
+              ]
+            },
+            {
+              "name": "Reputación de la IP",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AbuseIPDB",
+                  "type": "url",
+                  "url": "https://www.abuseipdb.com/"
+                },
+                {
+                  "name": "IP Void",
+                  "type": "url",
+                  "url": "http://www.ipvoid.com/"
+                },
+                {
+                  "name": "Grey Noise",
+                  "type": "url",
+                  "url": "https://viz.greynoise.io/"
+                },
+                {
+                  "name": "VirusTotal",
+                  "type": "url",
+                  "url": "https://www.virustotal.com/"
+                },
+                {
+                  "name": "IBM X-Force Exchange",
+                  "type": "url",
+                  "url": "https://exchange.xforce.ibmcloud.com/new"
+                }
+              ]
+            },
+            {
+              "name": "Escalada si coincide con descargas anómalas",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Acciones que tomar",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Meter en una blacklist la IP",
+                  "type": "folder",
+                  "children": []
+                },
+                {
+                  "name": "Comprobar los ordenadores que se han intentado conectar",
+                  "type": "folder",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Comportamiento extraño de un trabajador",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Accesos fuera de horario habitual",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Acceso a información fuera de su rol",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Intentos repetidos de autenticación",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Uso excesivo de USB",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Descargas masivas",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Elevación de privilegios",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Riesgos",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Evento aislado -> Riesgo bajo",
+                  "type": "folder",
+                  "children": []
+                },
+                {
+                  "name": "Evento repetido -> Riesgo medio",
+                  "type": "folder",
+                  "children": []
+                },
+                {
+                  "name": "Evento multiple -> Riesgo alto",
+                  "type": "folder",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Software no reglamentario",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Verificar conexión externa del software",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Wireshark",
+                  "type": "url",
+                  "url": "https://www.wireshark.org/download.html"
+                },
+                {
+                  "name": "Fiddler",
+                  "type": "url",
+                  "url": "https://www.telerik.com/download/fiddler"
+                },
+                {
+                  "name": "Burp Suite",
+                  "type": "url",
+                  "url": "https://portswigger.net/burp/"
+                }
+              ]
+            },
+            {
+              "name": "Verificar persistencia del sistema",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Autoruns",
+                  "type": "url",
+                  "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns"
+                }
+              ]
+            },
+            {
+              "name": "Relación con actividades sospechosas previas",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Acciones",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Formatear el equipo",
+                  "type": "folder",
+                  "children": []
+                },
+                {
+                  "name": "Analisis de posibles daños generados",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Análisis forense con herramientas especializadas",
+                      "type": "folder",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Comprobar el origen de este programa",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "VirusTotal",
+                      "type": "url",
+                      "url": "https://www.virustotal.com/"
+                    },
+                    {
+                      "name": "Hybrid Analysis",
+                      "type": "url",
+                      "url": "https://www.hybrid-analysis.com/"
+                    },
+                    {
+                      "name": "Any Run",
+                      "type": "url",
+                      "url": "https://app.any.run/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
-            ]
-        }
-    ]
-    }, 
+      ]
+    },
     {
-    "name": "Dirección",
-    "type": "folder",
-    "children": [
-
+      "name": "Busqueda proactiva",
+      "type": "folder",
+      "children": [
         {
-            "name":"Dirección real",
-            "type":"folder",
-            "children":null
-        },
-
-        {
-            "name":"Ubicación no sospechosa",
-            "type":"folder",
-            "children":null
-        },
-        {
-            "name":"Resultado buscados",
-            "type":"folder",
-            "children":[
-
+          "name": "Foros en la darkweb",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Menciones del dominio corporativo",
+              "type": "folder",
+              "children": [
                 {
-            "name":"No concordancia con los datos entregados y la dirección",
-            "type":"folder",
-            "children":null
-        },{
-            "name":"Dirección no confiable",
-            "type":"folder",
-            "children":null
+                  "name": "Ahmia",
+                  "type": "url",
+                  "url": "https://ahmia.fi/"
+                },
+                {
+                  "name": "dark.fail",
+                  "type": "url",
+                  "url": "http://darkfailllnkf4vf.onion/"
+                },
+                {
+                  "name": "IntelX",
+                  "type": "url",
+                  "url": "https://intelx.io/"
+                }
+              ]
+            },
+            {
+              "name": "Buscar filtraciones recientes",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Databases.Today",
+                  "type": "url",
+                  "url": "https://databases.today/"
+                },
+                {
+                  "name": "Leaked Source",
+                  "type": "url",
+                  "url": "https://leakedsource.ru/"
+                },
+                {
+                  "name": "Have I been pwned?",
+                  "type": "url",
+                  "url": "https://haveibeenpwned.com/"
+                },
+                {
+                  "name": "DeHashed",
+                  "type": "url",
+                  "url": "https://dehashed.com/"
+                }
+              ]
+            },
+            {
+              "name": "Empleados mencionados",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "IntelX",
+                  "type": "url",
+                  "url": "https://intelx.io/"
+                },
+                {
+                  "name": "Pastebin Alerts",
+                  "type": "url",
+                  "url": "http://andrewmohawk.com/pasteLert/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Grupos de telegram",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Buesqueda por nombre de empresa",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Google CSE for Telegram links",
+                  "type": "url",
+                  "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
+                },
+                {
+                  "name": "Telegram Search",
+                  "type": "url",
+                  "url": "https://t.me/search"
+                }
+              ]
+            },
+            {
+              "name": "Busqueda por producto",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=telegram+%22nombre+del+producto%22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "La competencia parece saber de nuestra posición",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Busqueda de correlaciones entre actividades de las empresas",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Google Alerts",
+                  "type": "url",
+                  "url": "https://www.google.com/alerts#"
+                },
+                {
+                  "name": "Talkwalker Alerts",
+                  "type": "url",
+                  "url": "http://www.talkwalker.com/alerts"
+                }
+              ]
+            },
+            {
+              "name": "Analisis temporal de publicaciones",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Wayback Machine",
+                  "type": "url",
+                  "url": "https://archive.org/web/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Acciones",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Intentar hallar la sección de la filtración y aislarla",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Comprobar la importancia y el daño de la filtración",
+              "type": "folder",
+              "children": []
+            },
+            {
+              "name": "Gestionar los daños y reforzar la seguridad como politicas de la empresa",
+              "type": "folder",
+              "children": []
+            }
+          ]
         }
-            ]
+      ]
+    },
+    {
+      "name": "Hacer siempre",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Preservación de logs",
+          "type": "folder",
+          "children": []
+        },
+        {
+          "name": "No alterar sistemas antes del análisis forense",
+          "type": "folder",
+          "children": []
+        },
+        {
+          "name": "Documento cronologico.",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Hunchly",
+              "type": "url",
+              "url": "http://www.hunch.ly/"
+            },
+            {
+              "name": "Archive.is",
+              "type": "url",
+              "url": "https://archive.is/"
+            },
+            {
+              "name": "Greenshot",
+              "type": "url",
+              "url": "https://getgreenshot.org/"
+            },
+            {
+              "name": "ShareX",
+              "type": "url",
+              "url": "https://getsharex.com/"
+            }
+          ]
         }
-    ]
-
+      ]
     }
-
-    
-    
-
-
-    ]
-},
-{
-        "name":"acciones en caso de sospechas",
-        "type":"folder",
-        "children":[
-        {
-            "name":"Compartir inteligencia a compañias del sector",
-            "type":"folder",
-            "children":null
-        },
-         {
-            "name":"No contratación",
-            "type":"folder",
-            "children":null
-        }
-    ]    }
-    
-
-]
-
-  },
-  {
-    "name":"Ex-trabajador",
-    "type":"folder",
-    "children":[
-         {
-            "name":"Eliminar privilegios",
-            "type":"folder",
-            "children":null
-        },
-         {
-            "name":"Confiscar el material dado por la empresa",
-            "type":"folder",
-            "children":null
-        },
-         {
-            "name":"eliminar y rebocar todos los accesos de él en la compañia",
-            "type":"folder",
-            "children":null
-        },
-         {
-            "name":"Crear nueva o nuevas contraseñas según el grado de importancia del empleado",
-            "type":"folder",
-            "children":null
-        }
-
-    ]
-  },
-
-  {
-    "name":"Actividad sospechosa",
-    "type":"folder",
-    "children":[
-        {
-            "name":"conexiones a dominios",
-            "type":"folder",
-            "children":[
-                {
-            "name": "Verificar reputación del dominio",
-            "type": "folder",
-            "children": null
-        },{
-            "name": "Comprobar si pertenece a infraestructura maliciosa",
-            "type": "folder",
-            "children": null
-         },{
-            "name": "Correlacionar con horario laboral",
-            "type": "folder",
-            "children": null
-        },
-        {
-            "name": "Acciones que tomar",
-            "type": "folder",
-            "children": [
-                
-            {
-            "name": "Meter en una blacklist el dominio",
-            "type": "folder",
-            "children": null
-            }, 
-            {
-            "name": "Comprobar los ordenadores que se han intentado conectar",
-            "type": "folder",
-            "children": null
-            }
-        ]
-            } 
-                
-            ]
-        },
-        {
-            "name":"Ips",
-            "type":"folder",
-            "children":[  
-            {
-            "name": "Geolocalización",
-            "type": "folder",
-            "children": null
-            },  
-            {
-            "name": "Reputación de la IP",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Escalada si coincide con descargas anómalas",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Acciones que tomar",
-            "type": "folder",
-            "children": [
-                
-            {
-            "name": "Meter en una blacklist la IP",
-            "type": "folder",
-            "children": null
-            }, 
-            {
-            "name": "Comprobar los ordenadores que se han intentado conectar",
-            "type": "folder",
-            "children": null
-            }
-        ]
-            } 
-            
-    
-    ]
-        },
-           {
-            "name":"Comportamiento extraño de un trabajador",
-            "type":"folder",
-            "children":[
-                {
-            "name": "Accesos fuera de horario habitual",
-            "type": "folder",
-            "children": null
-            }, 
-             {
-            "name": "Acceso a información fuera de su rol",
-            "type": "folder",
-            "children": null
-            }, 
-            {
-            "name": "Intentos repetidos de autenticación",
-            "type": "folder",
-            "children": null
-            }, 
-             {
-            "name": "Uso excesivo de USB",
-            "type": "folder",
-            "children": null
-            }, 
-              {
-            "name": "Descargas masivas",
-            "type": "folder",
-            "children": null
-            }, 
-               {
-            "name": "Elevación de privilegios",
-            "type": "folder",
-            "children": null
-            }, 
-               {
-            "name": "Riesgos",
-            "type": "folder",
-            "children": [
-
-            {
-            "name": "Evento aislado -> Riesgo bajo",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Evento repetido -> Riesgo medio",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Evento multiple -> Riesgo alto",
-            "type": "folder",
-            "children": null
-            } 
-
-            ]
-            }
-
-
-
-            ]
-        },   {
-            "name":"Software no reglamentario",
-            "type":"folder",
-            "children":[
-
-            {
-            "name": "Verificar conexión externa del software",
-            "type": "folder",
-            "children": null
-            }, 
-            {
-            "name": "Verificar persistencia del sistema",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Relación con actividades sospechosas previas",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Acciones",
-            "type": "folder",
-            "children": [
-            {
-            "name": "Formatear el equipo",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Analisis de posibles daños generados",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Comprobar el origen de este programa",
-            "type": "folder",
-            "children": null
-            }
-            ]
-            }
-
-            ]
-        }
-    ]
-  },
-     {
-            "name":"Busqueda proactiva",
-            "type":"folder",
-            "children":[
-                   {
-            "name":"Foros en la darkweb",
-            "type":"folder",
-            "children":[
-            {
-            "name": "Menciones del dominio corporativo",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Buscar filtraciones recientes",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Empleados mencionados",
-            "type": "folder",
-            "children": null
-            }
-
-            ]
-        },   {
-            "name":"Grupos de telegram",
-            "type":"folder",
-            "children":[
-            {
-            "name": "Buesqueda por nombre de empresa",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Busqueda por producto",
-            "type": "folder",
-            "children": null
-            }
-            ]
-        },
-           {
-            "name":"La competencia parece saber de nuestra posición",
-            "type":"folder",
-            "children":[
-                {
-            "name": "Busqueda de correlaciones entre actividades de las empresas",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Analisis temporal de publicaciones",
-            "type": "folder",
-            "children": null
-            }
-            ]
-        }, {
-            "name": "Acciones",
-            "type": "folder",
-            "children": [
-            {
-            "name": "Intentar hallar la sección de la filtración y aislarla",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Comprobar la importancia y el daño de la filtración",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "Gestionar los daños y reforzar la seguridad como politicas de la empresa",
-            "type": "folder",
-            "children": null
-            }
-            ]
-            } 
-            
-            
-            ]
-        },{
-
-            "name": "Hacer siempre",
-            "type": "folder",
-            "children": [
-            {
-            "name": "Preservación de logs",
-            "type": "folder",
-            "children": null
-            },
-            {
-            "name": "No alterar sistemas antes del análisis forense",
-            "type": "folder",
-            "children": null
-            }, 
-            {
-            "name": "Documento cronologico.",
-            "type": "folder",
-            "children": null
-            }
-                
-            ]
-
-        }
-
-]
-
+  ]
 }
